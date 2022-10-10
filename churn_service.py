@@ -16,7 +16,7 @@ def predict():
 
     return jsonify(res)
 
-with open('model1.bin', 'rb') as model_in:
+with open('model2.bin', 'rb') as model_in:
     model = pickle.load(model_in)
 
 with open('dv.bin', 'rb') as dv_in:
